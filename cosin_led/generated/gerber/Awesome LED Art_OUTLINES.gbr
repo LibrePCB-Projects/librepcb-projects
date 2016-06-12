@@ -1,0 +1,16 @@
+G04 --- HEADER BEGIN --- *
+%TF.GenerationSoftware,LibrePCB,LibrePCB,0.1*%
+%TF.CreationDate,2016-06-12T03:42:08*%
+%TF.ProjectId,Awesome LED Art,2aac30d5ff2b449da89c0cebc41db994,Default*%
+%TF.Part,Single*%
+%FSLAX66Y66*%
+%MOMM*%
+G01*
+G74*
+G04 --- HEADER END --- *
+G04 --- APERTURE LIST BEGIN --- *
+G04 --- APERTURE LIST END --- *
+G04 --- BOARD BEGIN --- *
+G04 --- BOARD END --- *
+%TF.MD5,bfd118b7e1685503e475e1d28bdd011e*%
+M02*

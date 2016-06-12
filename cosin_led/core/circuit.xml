@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<circuit version="0">
+ <netclasses>
+  <netclass uuid="8b0732fb-544e-4333-ad58-622a6889d55f" name="default"/>
+ </netclasses>
+ <netsignals>
+  <netsignal uuid="06480c43-86c2-405b-8306-b1fe15f695c7" name="VCC" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="false"/>
+  <netsignal uuid="08667972-b723-4ba1-95b2-58ea846c9098" name="N#5" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="true"/>
+  <netsignal uuid="0898a6db-95ff-4f06-9c39-df3c96861ad8" name="N#2" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="true"/>
+  <netsignal uuid="21339f6d-3e60-4a0b-8c3b-4b1ec4c8057d" name="N#4" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="true"/>
+  <netsignal uuid="44e5598d-0bcf-4734-bbf3-b6086ea9dc50" name="N#6" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="true"/>
+  <netsignal uuid="60e64aca-d2db-43c7-acd8-a734deea23bf" name="N#3" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="true"/>
+  <netsignal uuid="9853e6fe-2c50-4c65-b600-175b9d07e2ce" name="GND" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="false"/>
+  <netsignal uuid="f9f50a73-6a56-4d96-be33-e452451e3c20" name="N#7" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="true"/>
+  <netsignal uuid="fd865188-77c8-4a6f-857c-ec7dba78a309" name="N#1" netclass="8b0732fb-544e-4333-ad58-622a6889d55f" auto_name="true"/>
+ </netsignals>
+ <component_instances>
+  <component_instance uuid="1fbeaf07-7a26-4d1f-b2de-946eb3fc6531" symbol_variant="352cccd5-0c3c-4c66-88e0-6ee7c6a3cbf9" component="98e71eaa-1b90-4a84-8529-ed4f493e5c41">
+   <name>_2</name>
+   <value></value>
+   <attributes/>
+   <signal_mapping/>
+  </component_instance>
+  <component_instance uuid="2925546d-ec9e-40f5-b9ff-fab635968543" symbol_variant="f09ad258-595b-4ee9-a1fc-910804a203ae" component="8076f6be-bfab-4fc1-9772-5d54465dd7e1">
+   <name>SUP2</name>
+   <value>GND</value>
+   <attributes/>
+   <signal_mapping>
+    <map netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" comp_signal="ff161c97-29a5-43aa-a9ae-3ca7a66982ce"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="493a29a2-6432-46b9-b0c2-639a0d76b1c7" symbol_variant="ed0f0ca2-43ff-4a10-94c2-2958bc336586" component="2b24b18d-bd95-4fb4-8fe6-bce1d020ead4">
+   <name>LED4</name>
+   <value>${COLOR}</value>
+   <attributes>
+    <attribute key="COLOR">
+     <type>string</type>
+     <value>Red</value>
+     <unit></unit>
+    </attribute>
+   </attributes>
+   <signal_mapping>
+    <map netsignal="f9f50a73-6a56-4d96-be33-e452451e3c20" comp_signal="f1467b5c-cc7d-44b4-8076-d729f35b3a6a"/>
+    <map netsignal="44e5598d-0bcf-4734-bbf3-b6086ea9dc50" comp_signal="7b023430-b68f-403a-80b8-c7deb12e7a0c"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="68f21ef0-b248-4929-9541-94f4feaa5b1e" symbol_variant="0f0439a1-c258-40e7-b407-029f084c372f" component="197dacc7-3785-4054-a538-ced0d6271faa">
+   <name>Pad_N</name>
+   <value></value>
+   <attributes/>
+   <signal_mapping>
+    <map netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" comp_signal="ad6ae81a-7914-49b7-a87b-a0e8574b7398"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="9ad69e79-a25f-43f5-ab03-6540eab93a16" symbol_variant="afb86b45-68ec-47b6-8d96-153d73567228" component="58c3c6cd-11eb-4557-aa3f-d3e05874afde">
+   <name>SUP1</name>
+   <value>VCC</value>
+   <attributes/>
+   <signal_mapping>
+    <map netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" comp_signal="1d893320-f811-4a79-b64e-cc23d749d394"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="a11a90a8-3587-42e0-b6ea-76cc32f0c928" symbol_variant="ed0f0ca2-43ff-4a10-94c2-2958bc336586" component="2b24b18d-bd95-4fb4-8fe6-bce1d020ead4">
+   <name>LED1</name>
+   <value>${COLOR}</value>
+   <attributes>
+    <attribute key="COLOR">
+     <type>string</type>
+     <value>Red</value>
+     <unit></unit>
+    </attribute>
+   </attributes>
+   <signal_mapping>
+    <map netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" comp_signal="f1467b5c-cc7d-44b4-8076-d729f35b3a6a"/>
+    <map netsignal="21339f6d-3e60-4a0b-8c3b-4b1ec4c8057d" comp_signal="7b023430-b68f-403a-80b8-c7deb12e7a0c"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="c5340d5b-29e4-4582-9715-8ef39a4f1cf9" symbol_variant="0f0439a1-c258-40e7-b407-029f084c372f" component="197dacc7-3785-4054-a538-ced0d6271faa">
+   <name>Pad_P</name>
+   <value></value>
+   <attributes/>
+   <signal_mapping>
+    <map netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" comp_signal="ad6ae81a-7914-49b7-a87b-a0e8574b7398"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="d4e50fa5-6c27-4c62-937a-929732411e76" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" component="ef80cd5e-2689-47ee-8888-31d04fc99174">
+   <name>R1</name>
+   <value>${RESISTANCE}</value>
+   <attributes>
+    <attribute key="RESISTANCE">
+     <type>resistance</type>
+     <value>270</value>
+     <unit>ohm</unit>
+    </attribute>
+   </attributes>
+   <signal_mapping>
+    <map netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd"/>
+    <map netsignal="08667972-b723-4ba1-95b2-58ea846c9098" comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="e167d0b9-0374-4f5f-94f1-f4081d1d8be8" symbol_variant="ed0f0ca2-43ff-4a10-94c2-2958bc336586" component="2b24b18d-bd95-4fb4-8fe6-bce1d020ead4">
+   <name>LED3</name>
+   <value>${COLOR}</value>
+   <attributes>
+    <attribute key="COLOR">
+     <type>string</type>
+     <value>Green</value>
+     <unit></unit>
+    </attribute>
+   </attributes>
+   <signal_mapping>
+    <map netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" comp_signal="f1467b5c-cc7d-44b4-8076-d729f35b3a6a"/>
+    <map netsignal="f9f50a73-6a56-4d96-be33-e452451e3c20" comp_signal="7b023430-b68f-403a-80b8-c7deb12e7a0c"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="e4802a24-c3e1-4cd7-a526-c27a6b6e666e" symbol_variant="ed0f0ca2-43ff-4a10-94c2-2958bc336586" component="2b24b18d-bd95-4fb4-8fe6-bce1d020ead4">
+   <name>LED2</name>
+   <value>${COLOR}</value>
+   <attributes>
+    <attribute key="COLOR">
+     <type>string</type>
+     <value>Green</value>
+     <unit></unit>
+    </attribute>
+   </attributes>
+   <signal_mapping>
+    <map netsignal="21339f6d-3e60-4a0b-8c3b-4b1ec4c8057d" comp_signal="f1467b5c-cc7d-44b4-8076-d729f35b3a6a"/>
+    <map netsignal="08667972-b723-4ba1-95b2-58ea846c9098" comp_signal="7b023430-b68f-403a-80b8-c7deb12e7a0c"/>
+   </signal_mapping>
+  </component_instance>
+  <component_instance uuid="f7bf5712-cfa3-4da6-8186-26d5b268e960" symbol_variant="a5995314-f535-45d4-8bd8-2d0b8a0dc42a" component="ef80cd5e-2689-47ee-8888-31d04fc99174">
+   <name>R3</name>
+   <value>${RESISTANCE}</value>
+   <attributes>
+    <attribute key="RESISTANCE">
+     <type>resistance</type>
+     <value>270</value>
+     <unit>ohm</unit>
+    </attribute>
+   </attributes>
+   <signal_mapping>
+    <map netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" comp_signal="ad623f98-9e73-49c3-9404-f7cfa99d17cd"/>
+    <map netsignal="44e5598d-0bcf-4734-bbf3-b6086ea9dc50" comp_signal="3452d36e-1ce8-4b7c-8e5b-90c2e4929ed8"/>
+   </signal_mapping>
+  </component_instance>
+ </component_instances>
+</circuit>

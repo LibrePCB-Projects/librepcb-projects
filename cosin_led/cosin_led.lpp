@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<project version="0">
+ <meta>
+  <name>Awesome LED Art</name>
+  <author>Danilo Bargen</author>
+  <created>2016-06-11T23:03:02Z</created>
+  <last_modified>2016-06-12T01:41:55Z</last_modified>
+ </meta>
+ <schematics>
+  <schematic>main.xml</schematic>
+ </schematics>
+ <boards>
+  <board>default.xml</board>
+ </boards>
+</project>

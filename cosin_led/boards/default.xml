@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<board version="0">
+ <meta>
+  <uuid>2aac30d5-ff2b-449d-a89c-0cebc41db994</uuid>
+  <name>Default</name>
+ </meta>
+ <properties>
+  <grid_properties type="dots" unit="millimeters" interval="1.270000"/>
+ </properties>
+ <layer_stack>
+  <layers>
+   <layer id="1" color_hl="#ffc0c0c0" visible="true" color="#ffffffff">Grid</layer>
+   <layer id="3" color_hl="#ffffff00" visible="true" color="#ff808000">Unrouted</layer>
+   <layer id="10" color_hl="#dcffffff" visible="true" color="#b4ffffff">Board Outlines</layer>
+   <layer id="20" color_hl="#dcffffff" visible="true" color="#96ffffff">Drills</layer>
+   <layer id="30" color_hl="#dc00ff00" visible="true" color="#9600ff00">Vias</layer>
+   <layer id="40" color_hl="#50ffff00" visible="false" color="#32ffff00">Via Restrict</layer>
+   <layer id="50" color_hl="#dc00ff00" visible="true" color="#9600ff00">THT Pads</layer>
+   <layer id="200" color_hl="#dce0e0e0" visible="true" color="#96e0e0e0">Top Device Outlines</layer>
+   <layer id="201" color_hl="#50ffffff" visible="true" color="#32ffffff">Top Device Origin Crosses</layer>
+   <layer id="202" color_hl="#32ffffff" visible="false" color="#14ffffff">Top Device Grab Areas</layer>
+   <layer id="210" color_hl="#dce0e0e0" visible="true" color="#96e0e0e0">Top Test Points</layer>
+   <layer id="220" color_hl="#78e0e0e0" visible="false" color="#64e0e0e0">Top Glue</layer>
+   <layer id="230" color_hl="#78e0e0e0" visible="false" color="#64e0e0e0">Top Paste</layer>
+   <layer id="240" color_hl="#dce0e0e0" visible="false" color="#96e0e0e0">Top Overlay Names</layer>
+   <layer id="250" color_hl="#dce0e0e0" visible="false" color="#96e0e0e0">Top Overlay Values</layer>
+   <layer id="260" color_hl="#dce0e0e0" visible="false" color="#96e0e0e0">Top Overlay</layer>
+   <layer id="270" color_hl="#96ff0000" visible="false" color="#64ffffff">Top Stop Mask</layer>
+   <layer id="280" color_hl="#50ffff00" visible="false" color="#32ffff00">Top Device Keepout</layer>
+   <layer id="290" color_hl="#50ffff00" visible="false" color="#32ffff00">Top Copper Restrict</layer>
+   <layer id="300" color_hl="#dcff0000" visible="true" color="#82ff0000">Top Copper</layer>
+   <layer id="400" color_hl="#dc0000ff" visible="true" color="#820000ff">Bottom Copper</layer>
+   <layer id="410" color_hl="#50ffff00" visible="false" color="#32ffff00">Bottom Copper Restrict</layer>
+   <layer id="420" color_hl="#50ffff00" visible="false" color="#32ffff00">Bottom Device Keepout</layer>
+   <layer id="430" color_hl="#96ff0000" visible="false" color="#64ffffff">Bottom Stop Mask</layer>
+   <layer id="440" color_hl="#dce0e0e0" visible="true" color="#96e0e0e0">Bottom Overlay</layer>
+   <layer id="450" color_hl="#dce0e0e0" visible="true" color="#96e0e0e0">Bottom Overlay Values</layer>
+   <layer id="460" color_hl="#dce0e0e0" visible="true" color="#96e0e0e0">Bottom Overlay Names</layer>
+   <layer id="470" color_hl="#78e0e0e0" visible="false" color="#64e0e0e0">Bottom Paste</layer>
+   <layer id="480" color_hl="#78e0e0e0" visible="false" color="#64e0e0e0">Bottom Glue</layer>
+   <layer id="490" color_hl="#dce0e0e0" visible="true" color="#96e0e0e0">Bottom Test Points</layer>
+   <layer id="498" color_hl="#32ffffff" visible="false" color="#14ffffff">Bottom Device Grab Areas</layer>
+   <layer id="499" color_hl="#50ffffff" visible="true" color="#32ffffff">Bottom Device Origin Crosses</layer>
+   <layer id="500" color_hl="#dce0e0e0" visible="true" color="#96e0e0e0">Bottom Device Outlines</layer>
+  </layers>
+ </layer_stack>
+ <board_design_rules>
+  <name>LibrePCB Default Design Rules</name>
+  <description></description>
+  <stopmask_clearance_ratio>0</stopmask_clearance_ratio>
+  <stopmask_clearance_min>0.100000</stopmask_clearance_min>
+  <stopmask_clearance_max>0.100000</stopmask_clearance_max>
+  <stopmask_max_via_drill_diameter>0.500000</stopmask_max_via_drill_diameter>
+  <creammask_clearance_ratio>0.1</creammask_clearance_ratio>
+  <creammask_clearance_min>0.000000</creammask_clearance_min>
+  <creammask_clearance_max>1.000000</creammask_clearance_max>
+  <restring_pad_ratio>0.25</restring_pad_ratio>
+  <restring_pad_min>0.250000</restring_pad_min>
+  <restring_pad_max>2.000000</restring_pad_max>
+  <restring_via_ratio>0.25</restring_via_ratio>
+  <restring_via_min>0.200000</restring_via_min>
+  <restring_via_max>2.000000</restring_via_max>
+ </board_design_rules>
+ <devices>
+  <device footprint="9c44f896-44e3-4313-8594-97e712d22cd9" device="f016d9dd-a7b3-4d76-9b8a-16b708aa11cc" component="493a29a2-6432-46b9-b0c2-639a0d76b1c7">
+   <footprint/>
+   <position rotation="180.000000" y="2.540000" mirror="false" x="-7.620000"/>
+  </device>
+  <device footprint="8ce505c2-d6be-487d-82a5-1d69e962bdd6" device="ac09fb0b-7749-46c9-8495-3032a08171c9" component="68f21ef0-b248-4929-9541-94f4feaa5b1e">
+   <footprint/>
+   <position rotation="270.000000" y="8.890000" mirror="false" x="-16.510000"/>
+  </device>
+  <device footprint="9c44f896-44e3-4313-8594-97e712d22cd9" device="f016d9dd-a7b3-4d76-9b8a-16b708aa11cc" component="a11a90a8-3587-42e0-b6ea-76cc32f0c928">
+   <footprint/>
+   <position rotation="180.000000" y="8.890000" mirror="false" x="0.000000"/>
+  </device>
+  <device footprint="8ce505c2-d6be-487d-82a5-1d69e962bdd6" device="ac09fb0b-7749-46c9-8495-3032a08171c9" component="c5340d5b-29e4-4582-9715-8ef39a4f1cf9">
+   <footprint/>
+   <position rotation="270.000000" y="15.240000" mirror="false" x="-16.510000"/>
+  </device>
+  <device footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" device="483a71eb-318e-448e-82ff-f02efc4821aa" component="d4e50fa5-6c27-4c62-937a-929732411e76">
+   <footprint/>
+   <position rotation="180.000000" y="-8.890000" mirror="false" x="-10.160000"/>
+  </device>
+  <device footprint="9c44f896-44e3-4313-8594-97e712d22cd9" device="f016d9dd-a7b3-4d76-9b8a-16b708aa11cc" component="e167d0b9-0374-4f5f-94f1-f4081d1d8be8">
+   <footprint/>
+   <position rotation="180.000000" y="8.890000" mirror="false" x="-7.620000"/>
+  </device>
+  <device footprint="9c44f896-44e3-4313-8594-97e712d22cd9" device="f016d9dd-a7b3-4d76-9b8a-16b708aa11cc" component="e4802a24-c3e1-4cd7-a526-c27a6b6e666e">
+   <footprint/>
+   <position rotation="180.000000" y="2.540000" mirror="false" x="0.000000"/>
+  </device>
+  <device footprint="4fceac63-0f89-46c4-8e93-d6ee67d33e69" device="483a71eb-318e-448e-82ff-f02efc4821aa" component="f7bf5712-cfa3-4da6-8186-26d5b268e960">
+   <footprint/>
+   <position rotation="180.000000" y="-3.810000" mirror="false" x="-12.700000"/>
+  </device>
+ </devices>
+ <vias>
+  <via uuid="5c655a14-01f8-43cf-a198-c65993a5236b" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="484f26f8-5d90-4622-b37c-43f27919fd25" y="-12.700000" drill="0.000100" size="1.000000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="72aa3e57-26fb-420d-88f1-f6381a541191" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="-17.780000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="ef2f1ae1-eb2b-45b0-a33c-483c4ee563f3" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="-15.240000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="8eb77039-df01-4006-956e-05b31487d770" y="-12.700000" drill="0.000100" size="1.000000" shape="round" x="-15.240000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="dd85b5fa-d0a8-4ac8-8425-35ab52a18d43" y="-12.700000" drill="0.000100" size="1.000000" shape="round" x="-12.700000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="8044f2ac-a61e-4948-907f-5681efb7140c" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="-12.700000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="bf99753b-dda7-47b1-b64d-bd00d02a046e" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="-11.430000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="d5611e9f-4b19-4e54-b25d-e0f4b4a62d26" y="-16.510000" drill="0.000100" size="1.000000" shape="round" x="-10.160000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="bd771ea0-1ca2-42eb-9717-2d461c0c305e" y="-15.240000" drill="0.000100" size="1.000000" shape="round" x="-11.430000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="25ac503f-7c7f-4ce3-aad2-1b435000d165" y="-13.970000" drill="0.000100" size="1.000000" shape="round" x="-10.160000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="aa00d668-f8b8-4cd4-aff6-8d7b23bd74c0" y="-12.700000" drill="0.000100" size="1.000000" shape="round" x="-11.430000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="72da8d27-c27b-4b4d-a25f-c76ee056d96f" y="-12.700000" drill="0.000100" size="1.000000" shape="round" x="-7.620000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="624a3dd3-e49f-4729-86ff-e5231d7e12ec" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="-7.620000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="7ea02fa2-6320-4fd3-8640-1a48a94618e9" y="-15.240000" drill="0.000100" size="1.000000" shape="round" x="-6.350000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="1fa78432-5b04-4346-b74e-71df64bc419e" y="-13.970000" drill="0.000100" size="1.000000" shape="round" x="-5.080000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="e837d188-1c55-4b37-a9e8-5c4084d6bbcd" y="-12.700000" drill="0.000100" size="1.000000" shape="round" x="-6.350000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="5f874c8c-87a4-4c52-b52f-99badf1912a9" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="-5.080000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="bab49b38-fe75-4ecd-b8ff-ae4a78657496" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="-2.540000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="1f7caa23-7969-472d-9cf0-ab3d27b4552e" y="-12.700000" drill="0.000100" size="1.000000" shape="round" x="-2.540000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="b2245ec8-9c72-4d04-8afc-f1e97efa1033" y="-12.700000" drill="0.000100" size="1.000000" shape="round" x="0.000000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="83f7b9c3-aad4-4465-8f9a-34d9c50b71a4" y="-15.240000" drill="0.000100" size="1.000000" shape="round" x="0.000000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="b3c27ad2-05b3-4a5c-a934-9cee30b4cdc3" y="-17.780000" drill="0.000100" size="1.000000" shape="round" x="0.000000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="c2e9e513-4c8c-4388-b961-8bd1d1cb4b42" y="-15.240000" drill="0.000100" size="1.000000" shape="round" x="-2.540000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="05efb0b1-5c93-4df4-b7c4-f6846c276f48" y="-21.590000" drill="0.000100" size="1.000000" shape="round" x="-15.240000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="6bebff81-2aeb-46e8-8519-f295f4c7851f" y="-24.130000" drill="0.000100" size="1.000000" shape="round" x="-15.240000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="e6cc53ae-7c61-4171-861b-38491bf02ba8" y="-25.400000" drill="0.000100" size="1.000000" shape="round" x="-13.970000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="3a89ce8f-eabe-4f9f-9b92-281887c91518" y="-20.320000" drill="0.000100" size="1.000000" shape="round" x="-13.970000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="9b372c11-8d8c-4f5e-818a-8af617d5d587" y="-21.590000" drill="0.000100" size="1.000000" shape="round" x="-12.700000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="1ac7fd5c-144b-4e05-8630-fa9165601fca" y="-24.130000" drill="0.000100" size="1.000000" shape="round" x="-12.700000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="82e6e4c2-cb16-477d-8f64-d5103ee04c1e" y="-20.320000" drill="0.000100" size="1.000000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="b8adf38d-eb5a-4570-90e0-2d296e68a793" y="-25.400000" drill="0.000100" size="1.000000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="7a527245-be41-4009-8798-42285bef08da" y="-20.320000" drill="0.000100" size="1.000000" shape="round" x="-19.050000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="f25985ae-c56a-4dd5-a594-949a0927ce7d" y="-21.590000" drill="0.000100" size="1.000000" shape="round" x="-17.780000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="ed876151-93dc-41db-b3c4-23fcd83bd8e2" y="-22.860000" drill="0.000100" size="1.000000" shape="round" x="-19.050000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="868e318a-0b4d-430c-a1d6-99abcf06854a" y="-20.320000" drill="0.000100" size="1.000000" shape="round" x="-10.160000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="9a025ef7-b21f-4b48-b1f9-5fa03f3ebb88" y="-25.400000" drill="0.000100" size="1.000000" shape="round" x="-10.160000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="33c90479-7ecc-4d8d-8f07-c3f6383aad2f" y="-25.400000" drill="0.000100" size="1.000000" shape="round" x="-8.890000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="89240de8-b5f9-49e8-920d-b7e0a9233cf5" y="-24.130000" drill="0.000100" size="1.000000" shape="round" x="-7.620000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="af219a70-6662-4a15-a3a8-cc1dd1f19a4b" y="-22.860000" drill="0.000100" size="1.000000" shape="round" x="-8.890000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="ce1731b9-c90f-4a04-883c-5ed19a2655b9" y="-21.590000" drill="0.000100" size="1.000000" shape="round" x="-7.620000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="c08d6473-5f70-49a3-83dc-67935a253e96" y="-20.320000" drill="0.000100" size="1.000000" shape="round" x="-8.890000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="a67f779b-f145-4525-ac85-06390e77d3b7" y="-22.860000" drill="0.000100" size="1.000000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="06fe896b-8c30-4332-bdad-d711ad7511e8" y="16.510000" drill="0.000100" size="0.500000" shape="round" x="-21.590000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="6fc6354f-38a6-4d98-a8f5-bab1ae3154ea" y="13.970000" drill="0.000100" size="0.500000" shape="round" x="-21.590000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="d7361d05-35b9-47d2-9901-e07f53e4376c" y="15.240000" drill="0.000100" size="0.500000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="3d7d936d-3a34-4e3c-a97f-70d0169f309c" y="15.240000" drill="0.000100" size="0.500000" shape="round" x="-22.860000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="fb604bfc-b4c5-43b0-b0ac-66eb607621c6" y="8.890000" drill="0.000100" size="0.500000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="8c6b1a7c-5d63-40ae-9660-cea030ed3121" y="8.890000" drill="0.000100" size="0.500000" shape="round" x="-22.860000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="295f7839-0f9b-4670-a897-cc48d716f0ae" y="19.050000" drill="0.000100" size="1.000000" shape="round" x="-21.590000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="259c90ca-620c-45ef-aca6-3f61eed6602d" y="20.320000" drill="0.000100" size="1.000000" shape="round" x="-22.860000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="a6b61004-8b6e-42a8-839d-2bd0ed2f655f" y="20.320000" drill="0.000100" size="1.000000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="d23d65ef-177e-4178-86ec-8793ed359246" y="22.860000" drill="0.000100" size="1.000000" shape="round" x="-22.860000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="e63a44af-4d7d-4268-ab04-426baf288bdf" y="24.130000" drill="0.000100" size="1.000000" shape="round" x="-21.590000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="52199e4a-d923-4386-a242-aacc0bfc4413" y="22.860000" drill="0.000100" size="1.000000" shape="round" x="-20.320000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="f409e91f-be07-49d6-9d26-c10c76806f70" y="21.590000" drill="0.000100" size="1.000000" shape="round" x="-17.780000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="a99ed694-d201-4136-8488-09d0173a1ea2" y="19.050000" drill="0.000100" size="1.000000" shape="round" x="-16.510000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="a25005b3-7c47-414a-885a-51f68553bfc6" y="24.130000" drill="0.000100" size="1.000000" shape="round" x="-16.510000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="ebe90b7e-fae9-44f2-97cd-e5cece868985" y="21.590000" drill="0.000100" size="1.000000" shape="round" x="-15.240000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="31c37d6f-0b5f-42be-9b3f-3a4a06f68563" y="20.320000" drill="0.000100" size="1.000000" shape="round" x="-12.700000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="448377e2-7ff3-422e-a968-c7d95abb27d7" y="19.050000" drill="0.000100" size="1.000000" shape="round" x="-11.430000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="be3c7028-97c8-48cb-8596-efa131ead395" y="20.320000" drill="0.000100" size="1.000000" shape="round" x="-10.160000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="05e24498-56bf-4cb5-8646-6fbb7c081105" y="22.860000" drill="0.000100" size="1.000000" shape="round" x="-12.700000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="d6d936fb-980a-45e8-b135-2821cd50f68a" y="24.130000" drill="0.000100" size="1.000000" shape="round" x="-11.430000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="cf379e73-8545-48d4-8dab-438dad8b5dc2" y="22.860000" drill="0.000100" size="1.000000" shape="round" x="-10.160000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="2b7b4391-bb5a-462b-8084-f29c061f7937" y="24.130000" drill="0.000100" size="1.000000" shape="round" x="-7.620000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="ceb7e2a6-5177-4bac-b772-6ba656ddedea" y="19.050000" drill="0.000100" size="1.000000" shape="round" x="-7.620000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="9c0ff474-07ef-4f72-b49d-f57b6db50ae8" y="19.050000" drill="0.000100" size="1.000000" shape="round" x="-5.080000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="454135ff-efcb-40bf-bbce-5a9122927e1a" y="24.130000" drill="0.000100" size="1.000000" shape="round" x="-5.080000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="202c2918-4147-4ae1-87f2-5405e0ac9e23" y="19.050000" drill="0.000100" size="1.000000" shape="round" x="-2.540000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <via uuid="3753afc8-2fd7-4409-a515-3efe01de87e3" y="24.130000" drill="0.000100" size="1.000000" shape="round" x="-2.540000" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+ </vias>
+ <netpoints>
+  <netpoint uuid="9d7ea688-a539-43ec-a582-1e5467c5d67d" y="-2.540000" attached_to="none" layer="300" netsignal="0898a6db-95ff-4f06-9c39-df3c96861ad8" x="8.890000"/>
+  <netpoint uuid="7dc5ac15-d238-4646-afb6-cae3f0eff67c" y="22.860000" attached_to="none" layer="300" netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" x="24.130000"/>
+  <netpoint uuid="3262f9a0-7f81-4cca-85f6-5f0c23ccf99f" y="7.620000" attached_to="none" layer="300" netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" x="34.290000"/>
+  <netpoint uuid="43a5e500-f9ab-46c6-b3b9-20b3f02ffd9f" pad="264ac24f-e02c-4af0-82a5-ba4a77d2e9ad" attached_to="pad" layer="300" component="a11a90a8-3587-42e0-b6ea-76cc32f0c928" netsignal="21339f6d-3e60-4a0b-8c3b-4b1ec4c8057d"/>
+  <netpoint uuid="68596738-6f9f-49c7-94d0-ac486a86e57a" pad="2dc1fcc5-4a0e-41cd-9a27-9a5ff3322693" attached_to="pad" layer="300" component="e4802a24-c3e1-4cd7-a526-c27a6b6e666e" netsignal="21339f6d-3e60-4a0b-8c3b-4b1ec4c8057d"/>
+  <netpoint uuid="dae8b8f8-9563-47ae-acd8-5620c85ede90" pad="264ac24f-e02c-4af0-82a5-ba4a77d2e9ad" attached_to="pad" layer="300" component="e167d0b9-0374-4f5f-94f1-f4081d1d8be8" netsignal="f9f50a73-6a56-4d96-be33-e452451e3c20"/>
+  <netpoint uuid="5d4fcb83-c3ca-43ff-8d91-89c38edff79c" pad="2dc1fcc5-4a0e-41cd-9a27-9a5ff3322693" attached_to="pad" layer="300" component="493a29a2-6432-46b9-b0c2-639a0d76b1c7" netsignal="f9f50a73-6a56-4d96-be33-e452451e3c20"/>
+  <netpoint uuid="2ffd6318-afab-4986-9f91-832b0036525d" pad="58788f1b-2136-49a6-b2b0-a9fc72617f49" attached_to="pad" layer="300" component="c5340d5b-29e4-4582-9715-8ef39a4f1cf9" netsignal="06480c43-86c2-405b-8306-b1fe15f695c7"/>
+  <netpoint uuid="d087474d-0065-4698-9a2c-6c084ef160f6" y="15.240000" attached_to="none" layer="300" netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" x="-7.620000"/>
+  <netpoint uuid="cfa74ec5-54e0-4d7c-87a9-d176353a373c" pad="2dc1fcc5-4a0e-41cd-9a27-9a5ff3322693" attached_to="pad" layer="300" component="e167d0b9-0374-4f5f-94f1-f4081d1d8be8" netsignal="06480c43-86c2-405b-8306-b1fe15f695c7"/>
+  <netpoint uuid="8777d472-a861-4e52-8b6b-f2c43d134eac" y="15.240000" attached_to="none" layer="300" netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" x="-2.540000"/>
+  <netpoint uuid="d3b3421b-7a7e-4c48-b2c7-5463cbc81fb1" y="12.700000" attached_to="none" layer="300" netsignal="06480c43-86c2-405b-8306-b1fe15f695c7" x="0.000000"/>
+  <netpoint uuid="37fceca4-538f-493a-9083-c78ecc9f89d0" pad="2dc1fcc5-4a0e-41cd-9a27-9a5ff3322693" attached_to="pad" layer="300" component="a11a90a8-3587-42e0-b6ea-76cc32f0c928" netsignal="06480c43-86c2-405b-8306-b1fe15f695c7"/>
+  <netpoint uuid="1c627c3e-83eb-45f8-9f12-5a87f1815644" pad="264ac24f-e02c-4af0-82a5-ba4a77d2e9ad" attached_to="pad" layer="300" component="e4802a24-c3e1-4cd7-a526-c27a6b6e666e" netsignal="08667972-b723-4ba1-95b2-58ea846c9098"/>
+  <netpoint uuid="310d2e8b-57df-43b1-8ed5-a22ef9e88c7f" y="-1.270000" attached_to="none" layer="300" netsignal="08667972-b723-4ba1-95b2-58ea846c9098" x="0.000000"/>
+  <netpoint uuid="de770ca8-0a33-4f26-a22c-e648049a44b7" y="-6.350000" attached_to="none" layer="300" netsignal="08667972-b723-4ba1-95b2-58ea846c9098" x="0.000000"/>
+  <netpoint uuid="5daf2eb5-49fb-4826-b09b-d82d81c69a76" y="-8.890000" attached_to="none" layer="300" netsignal="08667972-b723-4ba1-95b2-58ea846c9098" x="-2.540000"/>
+  <netpoint uuid="97da5e6a-a0c2-48a3-9b50-9e8109a6612a" pad="ad768910-1573-409f-81d4-d4c7692ab494" attached_to="pad" layer="300" component="d4e50fa5-6c27-4c62-937a-929732411e76" netsignal="08667972-b723-4ba1-95b2-58ea846c9098"/>
+  <netpoint uuid="fc7ecdb9-4251-4264-8639-af7e0a9a36c4" pad="65ab6c75-b264-4fed-b445-d3d98c956008" attached_to="pad" layer="300" component="d4e50fa5-6c27-4c62-937a-929732411e76" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="12241a19-6180-40be-815f-574f7f101d47" y="-8.890000" attached_to="none" layer="300" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" x="-13.970000"/>
+  <netpoint uuid="3a49df84-c4a2-47e1-b551-a60172c3dd54" y="-6.350000" attached_to="none" layer="300" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" x="-16.510000"/>
+  <netpoint uuid="59be1421-88d0-4f41-baef-36fc9d757b6d" pad="65ab6c75-b264-4fed-b445-d3d98c956008" attached_to="pad" layer="300" component="f7bf5712-cfa3-4da6-8186-26d5b268e960" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="4a4851fa-95ab-4bd3-b55b-05f1ab8d57c8" y="-3.810000" attached_to="none" layer="300" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" x="-16.510000"/>
+  <netpoint uuid="0b6fccdf-faeb-4441-98fc-61c86ee80e38" pad="58788f1b-2136-49a6-b2b0-a9fc72617f49" attached_to="pad" layer="300" component="68f21ef0-b248-4929-9541-94f4feaa5b1e" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="1a00065e-90d5-40a7-9f72-c640bc25fe53" pad="264ac24f-e02c-4af0-82a5-ba4a77d2e9ad" attached_to="pad" layer="300" component="493a29a2-6432-46b9-b0c2-639a0d76b1c7" netsignal="44e5598d-0bcf-4734-bbf3-b6086ea9dc50"/>
+  <netpoint uuid="858cc734-032e-42b8-95b1-34e7f5488c92" y="-1.270000" attached_to="none" layer="300" netsignal="44e5598d-0bcf-4734-bbf3-b6086ea9dc50" x="-7.620000"/>
+  <netpoint uuid="d7c38b82-1230-44ba-9670-d48f0044c8b6" y="-3.810000" attached_to="none" layer="300" netsignal="44e5598d-0bcf-4734-bbf3-b6086ea9dc50" x="-10.160000"/>
+  <netpoint uuid="217edb48-e279-47ee-83bd-c03b6b79e720" pad="ad768910-1573-409f-81d4-d4c7692ab494" attached_to="pad" layer="300" component="f7bf5712-cfa3-4da6-8186-26d5b268e960" netsignal="44e5598d-0bcf-4734-bbf3-b6086ea9dc50"/>
+  <netpoint uuid="589f5cc5-6af7-4d62-ba5c-46475ddb154c" attached_to="via" layer="300" via="484f26f8-5d90-4622-b37c-43f27919fd25" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="fd83fcc8-b6e4-41fe-ac7d-2e7e3c366a13" attached_to="via" layer="300" via="72aa3e57-26fb-420d-88f1-f6381a541191" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="9e06aa10-68ce-46ec-8f45-7c216cc49d9a" attached_to="via" layer="300" via="5c655a14-01f8-43cf-a198-c65993a5236b" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="52c9c2e0-ee10-4e34-aa11-dad572edb505" attached_to="via" layer="300" via="ef2f1ae1-eb2b-45b0-a33c-483c4ee563f3" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="0b5aca3e-367f-49cd-a2d5-464da6bc1ec4" attached_to="via" layer="300" via="8eb77039-df01-4006-956e-05b31487d770" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="0f95f434-94f5-4ae3-b94d-fe1dac876323" attached_to="via" layer="300" via="bf99753b-dda7-47b1-b64d-bd00d02a046e" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="ec45a04e-51e5-4b87-949a-4388507ee7bc" attached_to="via" layer="300" via="8044f2ac-a61e-4948-907f-5681efb7140c" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="ac582a82-079c-4a69-bdbb-3ff4fd19a824" attached_to="via" layer="300" via="d5611e9f-4b19-4e54-b25d-e0f4b4a62d26" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="9af30078-3432-4747-94c6-51818b44496e" attached_to="via" layer="300" via="bd771ea0-1ca2-42eb-9717-2d461c0c305e" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="578da3fc-00ba-45c9-8701-c5226b0d2b87" attached_to="via" layer="300" via="aa00d668-f8b8-4cd4-aff6-8d7b23bd74c0" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="bf279383-778f-4a33-9709-a4275384785c" attached_to="via" layer="300" via="25ac503f-7c7f-4ce3-aad2-1b435000d165" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="ae2f9ed8-4de1-4123-b2d8-bcede57d04a5" attached_to="via" layer="300" via="dd85b5fa-d0a8-4ac8-8425-35ab52a18d43" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="bb155987-aaf9-4a31-9bcc-95d72872c181" attached_to="via" layer="300" via="72da8d27-c27b-4b4d-a25f-c76ee056d96f" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="44c7e20f-3ba8-4f4b-87cd-49ba378debdc" attached_to="via" layer="300" via="624a3dd3-e49f-4729-86ff-e5231d7e12ec" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="8072ddd8-f822-4d3d-bd48-eea9eb902d0d" attached_to="via" layer="300" via="1fa78432-5b04-4346-b74e-71df64bc419e" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="b92510a7-b18f-4807-9299-ed9ac90e6fa8" attached_to="via" layer="300" via="e837d188-1c55-4b37-a9e8-5c4084d6bbcd" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="264ebd22-d5d7-46d6-a974-dc3ffd829f27" attached_to="via" layer="300" via="7ea02fa2-6320-4fd3-8640-1a48a94618e9" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="b52c0106-ea8c-4257-8292-b1502ff3b227" attached_to="via" layer="300" via="5f874c8c-87a4-4c52-b52f-99badf1912a9" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="a160dc18-6b9e-48bc-af89-ba9206a8670d" attached_to="via" layer="300" via="bab49b38-fe75-4ecd-b8ff-ae4a78657496" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="ad3349a3-51bf-42e6-8f30-94fa02e9a213" attached_to="via" layer="300" via="b2245ec8-9c72-4d04-8afc-f1e97efa1033" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="2df62cec-f648-46b3-92e2-9648ad43ae47" attached_to="via" layer="300" via="1f7caa23-7969-472d-9cf0-ab3d27b4552e" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="f86393f2-aa40-45ef-9e8e-5e56b4624fa9" attached_to="via" layer="300" via="83f7b9c3-aad4-4465-8f9a-34d9c50b71a4" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="567a29bb-cc5b-4c29-9134-7fe02c02feea" attached_to="via" layer="300" via="c2e9e513-4c8c-4388-b961-8bd1d1cb4b42" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="3ceff4d5-c56a-4af9-8981-ec47a48961a3" attached_to="via" layer="300" via="b3c27ad2-05b3-4a5c-a934-9cee30b4cdc3" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="ae9d0295-4eed-4a20-996d-fc77f847c26f" attached_to="via" layer="300" via="9b372c11-8d8c-4f5e-818a-8af617d5d587" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="ba982d3e-aa5d-4a7b-97aa-1fa29f5f01bf" attached_to="via" layer="300" via="05efb0b1-5c93-4df4-b7c4-f6846c276f48" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="2b055d4c-b4eb-41fe-ba00-bdd5b69e9155" attached_to="via" layer="300" via="3a89ce8f-eabe-4f9f-9b92-281887c91518" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="aee71749-f450-43f1-8096-877c979bd773" attached_to="via" layer="300" via="6bebff81-2aeb-46e8-8519-f295f4c7851f" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="e1f315dd-0dcc-40d6-a120-ea35f00dfee8" attached_to="via" layer="300" via="e6cc53ae-7c61-4171-861b-38491bf02ba8" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="9c9f0de3-b22e-4969-be2d-49254d0ea38e" attached_to="via" layer="300" via="1ac7fd5c-144b-4e05-8630-fa9165601fca" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="397d9473-21df-4f5b-8a00-20dd5bcd551a" attached_to="via" layer="300" via="82e6e4c2-cb16-477d-8f64-d5103ee04c1e" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="7e9357c3-c7c8-4be7-8ab3-042c7e73aeca" attached_to="via" layer="300" via="b8adf38d-eb5a-4570-90e0-2d296e68a793" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="0cce0078-c73e-4e30-9a25-c3ff2b4131a6" attached_to="via" layer="300" via="f25985ae-c56a-4dd5-a594-949a0927ce7d" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="68cfd4d3-8cad-44bf-8df7-8633d7a11a71" y="-22.860000" attached_to="none" layer="300" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" x="-19.050000"/>
+  <netpoint uuid="bff949fc-7e48-4559-81f3-3ba8fa3897c3" attached_to="via" layer="300" via="7a527245-be41-4009-8798-42285bef08da" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="05ed669a-c585-4b66-8360-0018dfa4eef5" attached_to="via" layer="300" via="ce1731b9-c90f-4a04-883c-5ed19a2655b9" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="de7660e3-74d3-41c3-a534-4f44b03b7f7b" attached_to="via" layer="300" via="c08d6473-5f70-49a3-83dc-67935a253e96" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="13b782fb-ef60-4a6d-8439-ad701a3aad89" attached_to="via" layer="300" via="af219a70-6662-4a15-a3a8-cc1dd1f19a4b" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="dfd92b34-29b7-4438-812e-0e5f2c36d796" attached_to="via" layer="300" via="89240de8-b5f9-49e8-920d-b7e0a9233cf5" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="04589a50-a805-4220-9390-e6743ddd5fc9" attached_to="via" layer="300" via="9a025ef7-b21f-4b48-b1f9-5fa03f3ebb88" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="d326345c-ddda-4870-a7e1-1a5c10b8701b" attached_to="via" layer="300" via="33c90479-7ecc-4d8d-8f07-c3f6383aad2f" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="f9b8c361-967d-49f2-a7d2-fa40b27ea1ca" attached_to="via" layer="300" via="868e318a-0b4d-430c-a1d6-99abcf06854a" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="2f8ca616-db63-419d-bdad-cae3a64d42ae" attached_to="via" layer="300" via="a67f779b-f145-4525-ac85-06390e77d3b7" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="e11de484-fcdc-4e7c-92a8-373188f22608" attached_to="via" layer="300" via="3d7d936d-3a34-4e3c-a97f-70d0169f309c" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="389160a1-a12c-4433-aaf2-6aa76cd46d39" attached_to="via" layer="300" via="d7361d05-35b9-47d2-9901-e07f53e4376c" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="413660d3-fae8-4dc2-a8cf-945ffac846b7" attached_to="via" layer="300" via="6fc6354f-38a6-4d98-a8f5-bab1ae3154ea" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="2cce262a-7e0c-46f1-9f33-40d824bc8234" attached_to="via" layer="300" via="06fe896b-8c30-4332-bdad-d711ad7511e8" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="302f1997-ec4d-4dde-9429-30fe8431fbb3" attached_to="via" layer="300" via="8c6b1a7c-5d63-40ae-9660-cea030ed3121" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="fdb2903f-81ed-4510-9be1-886227a66529" attached_to="via" layer="300" via="fb604bfc-b4c5-43b0-b0ac-66eb607621c6" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="7e7b1128-034e-4fe6-b806-bf08f275f9ab" y="24.130000" attached_to="none" layer="300" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" x="-16.510000"/>
+  <netpoint uuid="37b8eb99-b8c6-4aa5-8afb-e2ded2c9ed02" y="19.050000" attached_to="none" layer="300" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce" x="-16.510000"/>
+  <netpoint uuid="398569eb-db3d-4f24-b3aa-9b9f1042fe1f" attached_to="via" layer="300" via="f409e91f-be07-49d6-9d26-c10c76806f70" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="41b3b0bd-6224-4cb4-ba2a-39964b682dd7" attached_to="via" layer="300" via="52199e4a-d923-4386-a242-aacc0bfc4413" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="de3dcb07-0c97-48d1-bdec-7ea84eda91a9" attached_to="via" layer="300" via="e63a44af-4d7d-4268-ab04-426baf288bdf" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="123342c1-a749-4f09-875f-798a7bda2b41" attached_to="via" layer="300" via="259c90ca-620c-45ef-aca6-3f61eed6602d" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="e91019aa-c41f-4379-a79e-34dc7e57f858" attached_to="via" layer="300" via="d23d65ef-177e-4178-86ec-8793ed359246" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="0b20d7aa-a35d-478b-b690-0d8ed9689daf" attached_to="via" layer="300" via="a6b61004-8b6e-42a8-839d-2bd0ed2f655f" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="3d617d1e-f09a-447d-bee4-44c8b76137d0" attached_to="via" layer="300" via="295f7839-0f9b-4670-a897-cc48d716f0ae" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="3fa4d6d4-dc2e-4e05-8438-d43ce80385d9" attached_to="via" layer="300" via="ebe90b7e-fae9-44f2-97cd-e5cece868985" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="5cc92b81-33e2-4a6f-b744-5fb92d7ab630" attached_to="via" layer="300" via="31c37d6f-0b5f-42be-9b3f-3a4a06f68563" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="f08111bb-0ce3-4bd7-baf9-bb2f5966b47e" attached_to="via" layer="300" via="448377e2-7ff3-422e-a968-c7d95abb27d7" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="7f66290e-7228-44e0-bcb8-cf7fbb91cd89" attached_to="via" layer="300" via="be3c7028-97c8-48cb-8596-efa131ead395" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="74f07a18-ab2d-4b5e-97d8-4c593b1d0ef8" attached_to="via" layer="300" via="05e24498-56bf-4cb5-8646-6fbb7c081105" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="d9e81dcf-0833-4e0e-9cb0-9826e9b84a73" attached_to="via" layer="300" via="cf379e73-8545-48d4-8dab-438dad8b5dc2" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="6a560233-767a-4b55-8bf5-041cca6273cc" attached_to="via" layer="300" via="d6d936fb-980a-45e8-b135-2821cd50f68a" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="e30c41ab-c1e2-49bd-bf72-49b93501801c" attached_to="via" layer="300" via="2b7b4391-bb5a-462b-8084-f29c061f7937" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="35268cc2-8b2a-4266-8b43-fcbf3b62ec63" attached_to="via" layer="300" via="ceb7e2a6-5177-4bac-b772-6ba656ddedea" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="74e07f0e-7c0d-4e96-87a8-391e531c5b57" attached_to="via" layer="300" via="9c0ff474-07ef-4f72-b49d-f57b6db50ae8" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="a22feaf5-f37d-4aff-9991-a125e5897a08" attached_to="via" layer="300" via="454135ff-efcb-40bf-bbce-5a9122927e1a" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="0144069e-be98-4b18-9627-435a95abb8dc" attached_to="via" layer="300" via="202c2918-4147-4ae1-87f2-5405e0ac9e23" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+  <netpoint uuid="837fe879-181a-4cf2-b8d8-747824a49a32" attached_to="via" layer="300" via="3753afc8-2fd7-4409-a515-3efe01de87e3" netsignal="9853e6fe-2c50-4c65-b600-175b9d07e2ce"/>
+ </netpoints>
+ <netlines>
+  <netline uuid="eec50a62-d73e-4a6e-a66f-56cb302e52a3" start_point="43a5e500-f9ab-46c6-b3b9-20b3f02ffd9f" end_point="68596738-6f9f-49c7-94d0-ac486a86e57a" width="0.800000"/>
+  <netline uuid="c1b3ca9d-d67f-480f-a352-9049d3b15251" start_point="dae8b8f8-9563-47ae-acd8-5620c85ede90" end_point="5d4fcb83-c3ca-43ff-8d91-89c38edff79c" width="0.800000"/>
+  <netline uuid="7d2e0254-6c4c-4927-894b-8ac1659317f3" start_point="2ffd6318-afab-4986-9f91-832b0036525d" end_point="d087474d-0065-4698-9a2c-6c084ef160f6" width="0.800000"/>
+  <netline uuid="05dddfe7-9caf-4109-bc7e-36052785943a" start_point="d087474d-0065-4698-9a2c-6c084ef160f6" end_point="cfa74ec5-54e0-4d7c-87a9-d176353a373c" width="0.800000"/>
+  <netline uuid="eee2749c-1034-41bc-a135-8900df4eaeda" start_point="d087474d-0065-4698-9a2c-6c084ef160f6" end_point="8777d472-a861-4e52-8b6b-f2c43d134eac" width="0.800000"/>
+  <netline uuid="712d9ac6-b09b-46cd-86ad-38b787b7f647" start_point="8777d472-a861-4e52-8b6b-f2c43d134eac" end_point="d3b3421b-7a7e-4c48-b2c7-5463cbc81fb1" width="0.800000"/>
+  <netline uuid="a1cb2ed0-e723-4d5d-ab3b-872762ac368d" start_point="37fceca4-538f-493a-9083-c78ecc9f89d0" end_point="d3b3421b-7a7e-4c48-b2c7-5463cbc81fb1" width="0.800000"/>
+  <netline uuid="eb976d09-90d5-45e1-a774-1e56d8ba9b4a" start_point="1c627c3e-83eb-45f8-9f12-5a87f1815644" end_point="310d2e8b-57df-43b1-8ed5-a22ef9e88c7f" width="0.800000"/>
+  <netline uuid="24475934-9f1b-400e-ad1d-f6e2a946191f" start_point="310d2e8b-57df-43b1-8ed5-a22ef9e88c7f" end_point="de770ca8-0a33-4f26-a22c-e648049a44b7" width="0.800000"/>
+  <netline uuid="8837e279-ff06-4142-a4cb-caa3068856c6" start_point="de770ca8-0a33-4f26-a22c-e648049a44b7" end_point="5daf2eb5-49fb-4826-b09b-d82d81c69a76" width="0.800000"/>
+  <netline uuid="e901b6b2-cef6-4add-b208-f528a695b75f" start_point="97da5e6a-a0c2-48a3-9b50-9e8109a6612a" end_point="5daf2eb5-49fb-4826-b09b-d82d81c69a76" width="0.800000"/>
+  <netline uuid="8c938d3d-3915-4acc-b5d3-b053a0f186e8" start_point="fc7ecdb9-4251-4264-8639-af7e0a9a36c4" end_point="12241a19-6180-40be-815f-574f7f101d47" width="0.800000"/>
+  <netline uuid="f3153771-2012-45ee-a181-9346c2ba4344" start_point="12241a19-6180-40be-815f-574f7f101d47" end_point="3a49df84-c4a2-47e1-b551-a60172c3dd54" width="0.800000"/>
+  <netline uuid="0f7d5d2a-f612-4f8b-900b-a07d7ac2e951" start_point="4a4851fa-95ab-4bd3-b55b-05f1ab8d57c8" end_point="59be1421-88d0-4f41-baef-36fc9d757b6d" width="0.800000"/>
+  <netline uuid="17967539-4b2b-4a54-8b58-e20a375f29b6" start_point="4a4851fa-95ab-4bd3-b55b-05f1ab8d57c8" end_point="3a49df84-c4a2-47e1-b551-a60172c3dd54" width="0.800000"/>
+  <netline uuid="3be61072-982e-45f5-be9a-4ca74ea225a0" start_point="0b6fccdf-faeb-4441-98fc-61c86ee80e38" end_point="4a4851fa-95ab-4bd3-b55b-05f1ab8d57c8" width="0.800000"/>
+  <netline uuid="7fecceb3-f39b-49bf-b16d-65bab59875c1" start_point="1a00065e-90d5-40a7-9f72-c640bc25fe53" end_point="858cc734-032e-42b8-95b1-34e7f5488c92" width="0.800000"/>
+  <netline uuid="050bbf1c-999b-449b-827d-85c4086ff464" start_point="858cc734-032e-42b8-95b1-34e7f5488c92" end_point="d7c38b82-1230-44ba-9670-d48f0044c8b6" width="0.800000"/>
+  <netline uuid="d897c2a1-bbf1-4b14-8fb3-61ea3293820a" start_point="217edb48-e279-47ee-83bd-c03b6b79e720" end_point="d7c38b82-1230-44ba-9670-d48f0044c8b6" width="0.800000"/>
+  <netline uuid="90f68592-5cb0-4908-b12c-afa36c3c08e0" start_point="9e06aa10-68ce-46ec-8f45-7c216cc49d9a" end_point="fd83fcc8-b6e4-41fe-ac7d-2e7e3c366a13" width="0.500000"/>
+  <netline uuid="b700a9b0-d1e0-4167-b5ea-b6256a88dfbc" start_point="9e06aa10-68ce-46ec-8f45-7c216cc49d9a" end_point="589f5cc5-6af7-4d62-ba5c-46475ddb154c" width="0.500000"/>
+  <netline uuid="d2bbf3aa-fb51-49df-a6c2-62bdc4fbc9b0" start_point="0b5aca3e-367f-49cd-a2d5-464da6bc1ec4" end_point="52c9c2e0-ee10-4e34-aa11-dad572edb505" width="0.500000"/>
+  <netline uuid="3e87c06d-3857-4e29-9453-099b00db8a5c" start_point="ec45a04e-51e5-4b87-949a-4388507ee7bc" end_point="0f95f434-94f5-4ae3-b94d-fe1dac876323" width="0.500000"/>
+  <netline uuid="aeecd37f-6b44-4946-9725-c826a2d2ee44" start_point="0f95f434-94f5-4ae3-b94d-fe1dac876323" end_point="ac582a82-079c-4a69-bdbb-3ff4fd19a824" width="0.500000"/>
+  <netline uuid="4438ec7d-b639-404f-b467-e1c134231c9f" start_point="ac582a82-079c-4a69-bdbb-3ff4fd19a824" end_point="9af30078-3432-4747-94c6-51818b44496e" width="0.500000"/>
+  <netline uuid="75851a62-c71a-4ec7-8bc6-489f346f96c1" start_point="578da3fc-00ba-45c9-8701-c5226b0d2b87" end_point="bf279383-778f-4a33-9709-a4275384785c" width="0.500000"/>
+  <netline uuid="57252c09-6884-4138-b627-76a282285419" start_point="bf279383-778f-4a33-9709-a4275384785c" end_point="9af30078-3432-4747-94c6-51818b44496e" width="0.500000"/>
+  <netline uuid="502ac6ee-3dd3-4f93-8353-5de2731b5393" start_point="ae2f9ed8-4de1-4123-b2d8-bcede57d04a5" end_point="578da3fc-00ba-45c9-8701-c5226b0d2b87" width="0.500000"/>
+  <netline uuid="6dd0edd0-1249-4a1c-b2b4-0b11e7114daf" start_point="ae2f9ed8-4de1-4123-b2d8-bcede57d04a5" end_point="ec45a04e-51e5-4b87-949a-4388507ee7bc" width="0.500000"/>
+  <netline uuid="7e8d5b8d-6544-47cf-b95c-296be799d691" start_point="44c7e20f-3ba8-4f4b-87cd-49ba378debdc" end_point="bb155987-aaf9-4a31-9bcc-95d72872c181" width="0.500000"/>
+  <netline uuid="3b20d6ac-aa8e-43fd-bd90-119b33ca0170" start_point="8072ddd8-f822-4d3d-bd48-eea9eb902d0d" end_point="b92510a7-b18f-4807-9299-ed9ac90e6fa8" width="0.500000"/>
+  <netline uuid="d74ec3ac-358f-476f-be9a-e2c08e9d511e" start_point="b92510a7-b18f-4807-9299-ed9ac90e6fa8" end_point="bb155987-aaf9-4a31-9bcc-95d72872c181" width="0.500000"/>
+  <netline uuid="9970b0cd-930f-4594-9ed7-ed922f32825a" start_point="8072ddd8-f822-4d3d-bd48-eea9eb902d0d" end_point="264ebd22-d5d7-46d6-a974-dc3ffd829f27" width="0.500000"/>
+  <netline uuid="63d575a4-6e7d-4122-b1be-35fe9d57e601" start_point="264ebd22-d5d7-46d6-a974-dc3ffd829f27" end_point="b52c0106-ea8c-4257-8292-b1502ff3b227" width="0.500000"/>
+  <netline uuid="5ce8bed6-bb94-4b11-8ec9-c99315937070" start_point="2df62cec-f648-46b3-92e2-9648ad43ae47" end_point="ad3349a3-51bf-42e6-8f30-94fa02e9a213" width="0.500000"/>
+  <netline uuid="dfeb2ff2-be7c-4896-b823-ee269542cddd" start_point="567a29bb-cc5b-4c29-9134-7fe02c02feea" end_point="f86393f2-aa40-45ef-9e8e-5e56b4624fa9" width="0.500000"/>
+  <netline uuid="c0073707-51e9-4dee-b9e9-a476162fd870" start_point="567a29bb-cc5b-4c29-9134-7fe02c02feea" end_point="a160dc18-6b9e-48bc-af89-ba9206a8670d" width="0.500000"/>
+  <netline uuid="300df19c-4262-4c98-9011-774e8fb85ea7" start_point="567a29bb-cc5b-4c29-9134-7fe02c02feea" end_point="2df62cec-f648-46b3-92e2-9648ad43ae47" width="0.500000"/>
+  <netline uuid="f0f06b25-be17-4327-acc4-de0da5eafb21" start_point="3ceff4d5-c56a-4af9-8981-ec47a48961a3" end_point="a160dc18-6b9e-48bc-af89-ba9206a8670d" width="0.500000"/>
+  <netline uuid="df1ef429-5433-4bc8-9118-b5643fbedaf4" start_point="ba982d3e-aa5d-4a7b-97aa-1fa29f5f01bf" end_point="2b055d4c-b4eb-41fe-ba00-bdd5b69e9155" width="0.500000"/>
+  <netline uuid="835fcd60-801a-409d-86f8-af31a5dbda29" start_point="2b055d4c-b4eb-41fe-ba00-bdd5b69e9155" end_point="ae9d0295-4eed-4a20-996d-fc77f847c26f" width="0.500000"/>
+  <netline uuid="a0a8c453-d2cb-413e-a67e-751979118499" start_point="aee71749-f450-43f1-8096-877c979bd773" end_point="ba982d3e-aa5d-4a7b-97aa-1fa29f5f01bf" width="0.500000"/>
+  <netline uuid="a3b7e91d-a89a-4612-bc44-e3dae7900ec0" start_point="aee71749-f450-43f1-8096-877c979bd773" end_point="e1f315dd-0dcc-40d6-a120-ea35f00dfee8" width="0.500000"/>
+  <netline uuid="03d275fa-5a6c-4569-bf74-ea3283605c42" start_point="e1f315dd-0dcc-40d6-a120-ea35f00dfee8" end_point="9c9f0de3-b22e-4969-be2d-49254d0ea38e" width="0.500000"/>
+  <netline uuid="886a1a1f-89e3-4d8d-a638-5c0bf3a347a9" start_point="bff949fc-7e48-4559-81f3-3ba8fa3897c3" end_point="397d9473-21df-4f5b-8a00-20dd5bcd551a" width="0.500000"/>
+  <netline uuid="cd2e46f6-08f5-4474-8a20-cc65b247bdcc" start_point="bff949fc-7e48-4559-81f3-3ba8fa3897c3" end_point="0cce0078-c73e-4e30-9a25-c3ff2b4131a6" width="0.500000"/>
+  <netline uuid="45ec38a3-0ffb-4b3d-94d8-0395df27cf92" start_point="0cce0078-c73e-4e30-9a25-c3ff2b4131a6" end_point="68cfd4d3-8cad-44bf-8df7-8633d7a11a71" width="0.500000"/>
+  <netline uuid="27fed5a3-1009-47c1-a900-e48ae0119f0f" start_point="05ed669a-c585-4b66-8360-0018dfa4eef5" end_point="de7660e3-74d3-41c3-a534-4f44b03b7f7b" width="0.500000"/>
+  <netline uuid="5f38813d-f381-4995-a831-1588b7902216" start_point="13b782fb-ef60-4a6d-8439-ad701a3aad89" end_point="05ed669a-c585-4b66-8360-0018dfa4eef5" width="0.500000"/>
+  <netline uuid="79a9e396-8f61-4919-a7a3-e2f1d57198ad" start_point="dfd92b34-29b7-4438-812e-0e5f2c36d796" end_point="13b782fb-ef60-4a6d-8439-ad701a3aad89" width="0.500000"/>
+  <netline uuid="b71e8368-c4d9-43a5-ac43-5930d31ef8a2" start_point="d326345c-ddda-4870-a7e1-1a5c10b8701b" end_point="04589a50-a805-4220-9390-e6743ddd5fc9" width="0.500000"/>
+  <netline uuid="6ad3c9a2-c06b-4e99-a436-d64a23df69f1" start_point="d326345c-ddda-4870-a7e1-1a5c10b8701b" end_point="dfd92b34-29b7-4438-812e-0e5f2c36d796" width="0.500000"/>
+  <netline uuid="1f6e3da0-d1f4-4d6c-a436-4ddb69c89686" start_point="f9b8c361-967d-49f2-a7d2-fa40b27ea1ca" end_point="04589a50-a805-4220-9390-e6743ddd5fc9" width="0.500000"/>
+  <netline uuid="adc568c0-687e-4630-be26-693123b74f82" start_point="f9b8c361-967d-49f2-a7d2-fa40b27ea1ca" end_point="de7660e3-74d3-41c3-a534-4f44b03b7f7b" width="0.500000"/>
+  <netline uuid="02b3b6a7-88f7-412c-9366-3319576a96a0" start_point="2f8ca616-db63-419d-bdad-cae3a64d42ae" end_point="68cfd4d3-8cad-44bf-8df7-8633d7a11a71" width="0.500000"/>
+  <netline uuid="46d0dd94-0c28-4f37-a7be-cacf9dbcdd03" start_point="2f8ca616-db63-419d-bdad-cae3a64d42ae" end_point="397d9473-21df-4f5b-8a00-20dd5bcd551a" width="0.500000"/>
+  <netline uuid="d01c2a58-a945-4e6b-b818-6d75442bfce2" start_point="2f8ca616-db63-419d-bdad-cae3a64d42ae" end_point="7e9357c3-c7c8-4be7-8ab3-042c7e73aeca" width="0.500000"/>
+  <netline uuid="0349aa0d-7cd3-482d-9259-ea6bfcd7eae3" start_point="389160a1-a12c-4433-aaf2-6aa76cd46d39" end_point="e11de484-fcdc-4e7c-92a8-373188f22608" width="0.500000"/>
+  <netline uuid="f4631043-340b-43d3-a105-12431095fcfe" start_point="2cce262a-7e0c-46f1-9f33-40d824bc8234" end_point="413660d3-fae8-4dc2-a8cf-945ffac846b7" width="0.500000"/>
+  <netline uuid="9914e380-328b-43a9-8bb0-8875e76f091d" start_point="fdb2903f-81ed-4510-9be1-886227a66529" end_point="302f1997-ec4d-4dde-9429-30fe8431fbb3" width="0.500000"/>
+  <netline uuid="d7988b3c-0221-4723-89e6-91e2242249e3" start_point="41b3b0bd-6224-4cb4-ba2a-39964b682dd7" end_point="de3dcb07-0c97-48d1-bdec-7ea84eda91a9" width="0.500000"/>
+  <netline uuid="5295b31c-f33a-4cad-a728-8dc1777d2a5c" start_point="123342c1-a749-4f09-875f-798a7bda2b41" end_point="e91019aa-c41f-4379-a79e-34dc7e57f858" width="0.500000"/>
+  <netline uuid="10731660-058f-4cc5-b883-d0a887a36fc5" start_point="e91019aa-c41f-4379-a79e-34dc7e57f858" end_point="de3dcb07-0c97-48d1-bdec-7ea84eda91a9" width="0.500000"/>
+  <netline uuid="3112ffee-cf7d-43ad-afa0-4d37474812e9" start_point="0b20d7aa-a35d-478b-b690-0d8ed9689daf" end_point="3d617d1e-f09a-447d-bee4-44c8b76137d0" width="0.500000"/>
+  <netline uuid="77f1c1df-09ca-47db-acc1-93f70a5de2e4" start_point="3d617d1e-f09a-447d-bee4-44c8b76137d0" end_point="123342c1-a749-4f09-875f-798a7bda2b41" width="0.500000"/>
+  <netline uuid="f7b785e3-dc8c-40be-a3f7-9a0511ae5968" start_point="398569eb-db3d-4f24-b3aa-9b9f1042fe1f" end_point="7e7b1128-034e-4fe6-b806-bf08f275f9ab" width="0.500000"/>
+  <netline uuid="cb1b56d2-cbfb-49c2-bed4-a78760759d7d" start_point="37b8eb99-b8c6-4aa5-8afb-e2ded2c9ed02" end_point="398569eb-db3d-4f24-b3aa-9b9f1042fe1f" width="0.500000"/>
+  <netline uuid="b98b87b5-d870-459a-9412-88ddea1fa270" start_point="37b8eb99-b8c6-4aa5-8afb-e2ded2c9ed02" end_point="3fa4d6d4-dc2e-4e05-8438-d43ce80385d9" width="0.500000"/>
+  <netline uuid="dc6623dc-5d79-477c-be28-271d36804146" start_point="3fa4d6d4-dc2e-4e05-8438-d43ce80385d9" end_point="7e7b1128-034e-4fe6-b806-bf08f275f9ab" width="0.500000"/>
+  <netline uuid="af5caf1d-b9f5-4cab-8017-a5dfd3e5f13c" start_point="5cc92b81-33e2-4a6f-b744-5fb92d7ab630" end_point="f08111bb-0ce3-4bd7-baf9-bb2f5966b47e" width="0.500000"/>
+  <netline uuid="ef71c70e-14ec-48c5-b853-1d03982a7274" start_point="f08111bb-0ce3-4bd7-baf9-bb2f5966b47e" end_point="7f66290e-7228-44e0-bcb8-cf7fbb91cd89" width="0.500000"/>
+  <netline uuid="4093db56-9f43-4771-965f-8f559337989c" start_point="7f66290e-7228-44e0-bcb8-cf7fbb91cd89" end_point="74f07a18-ab2d-4b5e-97d8-4c593b1d0ef8" width="0.500000"/>
+  <netline uuid="90c91025-c938-4fc8-ad26-bd539ff25f44" start_point="d9e81dcf-0833-4e0e-9cb0-9826e9b84a73" end_point="6a560233-767a-4b55-8bf5-041cca6273cc" width="0.500000"/>
+  <netline uuid="fb3770e9-9371-4b2c-94f6-0e4347b0e5b6" start_point="6a560233-767a-4b55-8bf5-041cca6273cc" end_point="74f07a18-ab2d-4b5e-97d8-4c593b1d0ef8" width="0.500000"/>
+  <netline uuid="524bfe2a-b563-43a6-8f21-bf4456c13ac1" start_point="e30c41ab-c1e2-49bd-bf72-49b93501801c" end_point="35268cc2-8b2a-4266-8b43-fcbf3b62ec63" width="0.500000"/>
+  <netline uuid="19aa7099-04bd-456d-a4fc-296ab3f2e159" start_point="74e07f0e-7c0d-4e96-87a8-391e531c5b57" end_point="a22feaf5-f37d-4aff-9991-a125e5897a08" width="0.500000"/>
+  <netline uuid="55343b69-5325-41e3-803f-c2a116b8ec85" start_point="a22feaf5-f37d-4aff-9991-a125e5897a08" end_point="0144069e-be98-4b18-9627-435a95abb8dc" width="0.500000"/>
+  <netline uuid="1b9b2212-71ff-40f7-9cab-bddd321ad38d" start_point="0144069e-be98-4b18-9627-435a95abb8dc" end_point="837fe879-181a-4cf2-b8d8-747824a49a32" width="0.500000"/>
+ </netlines>
+ <polygons/>
+</board>
